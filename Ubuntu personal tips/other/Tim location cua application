@@ -1,0 +1,12 @@
+ /usr/share/applications will list out all .desktop applications installed on your computer. These files are sort like Windows start menu shorcuts, they are not applications.
+
+type which application-name in terminal will show you where the executable of the application is located.  
+ 
+type whereis application-name in terminal will show you where are all the files of the application are located. 
+
+The programs on Linux are actually not located on any single place, instead the program's files are distributed around the filesystem, depends on its purpose.
+For example the executables are in /usr/bin, icons in /usr/share/icons, libraries in /usr/share/pixmpas and so on.
+The rest of the files with no specific place are stored in /usr/share/application-name
+
+
+

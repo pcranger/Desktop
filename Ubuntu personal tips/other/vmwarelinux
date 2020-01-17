@@ -1,0 +1,2 @@
+sudo bash ten_cua_file_vmware.bundle
+uninstall: sudo vmware-installer -u vmware-workstations

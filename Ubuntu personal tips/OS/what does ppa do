@@ -1,0 +1,11 @@
+PPA stands for Personal Package Archives.
+
+Usually we use PPA when a particular is not available in Official Software repo.
+
+From a developer point of view, say you developed a program X. If X is hugely popular then it might make its way in to official Repo.
+
+If not, you can create your own software repo in LaunchPad website( thats where you can get the ppa's mostly). And then upload your program , and viola you have your own ppa. Users then can install from this ppa.
+
+Arch linux has somewhat a variation of this called Aur (Arch User Repo), but aur is much easier to use, i guess.
+
+Hope this helps :)

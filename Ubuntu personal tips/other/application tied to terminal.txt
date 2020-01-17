@@ -1,0 +1,2 @@
+If you do not want the application tied to a controlling terminal
+ you can type the application name followed by & disown.

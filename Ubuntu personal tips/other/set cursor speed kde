@@ -1,0 +1,24 @@
+The terminology of the mouse settings in Linux (Xorg) are slightly different from the windows world.
+
+There are three important settings:
+
+threshold - The trigger for acceleration
+acceleration - The speed after the threshold has been reached
+resolution - The "speed"
+These settings are independent of the Desktop Environment. They are pure X settings. So this always works. See also the mouse section of xset for a truly independent way to change these settings.
+
+The Unity settings manager seems to rename the threshold to sensitivity. But as you are talking about KDE, that should not matter.
+
+Only threshold and acceleration can be changed by the user. The resolution is a setting to be made in xorg.conf. But usually, the first two settings are enough for most users.
+
+Linuxreviews has an explanation of these values.
+
+Basically: The mouse moves at a base speed (modifiable using resolution). If the mouse moves n pixels (n = threshold) in a short time, then the base speed is multiplied with acceleration. As an example, if you want to disable acceleration completely, you can set the threshold to 0. In words: If the mouse moves 0 pixels in a short time, I'll use base-speed * acceleration. So a threshold of 0 gives you constant mouse-speed.
+
+The solution is:
+
+Set "Pointer threshold" to 0. As a result, the second speed will be applied at all times.
+Adjust "Pointer acceleration" to make that speed higher or lower.
+You will end up with a constant, non-dynamic cursor speed adjusted to your liking.
+
+So, these two values give you a very fine grained control over the speed.

@@ -1,0 +1,3 @@
+Running sudo apt-get update simply makes sure your list of packages from all repositories and PPA's is up to date. If you do not run this command, you could be getting older versions of various packages you are installing, or worse, dependency issues. If you have just added a PPA and have not updated, nothing from the PPA will work at all as you do not have a package list from that PPA or repository.
+
+In a nutshell: It is highly recommended to run sudo apt-get update before installing, but it may be skipped if you are really pressed for time unless you have changed repositories or PPAs since the last apt-get update.

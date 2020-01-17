@@ -1,0 +1,19 @@
+User 1
+If you can't find the software you need in the repos or in a PPA or in in a deb someplace else, it means the developers have not packaged it for Ubuntu. Rather than doing the configure, make, install dance, you might look into learning how to build your own deb from source. Makes things more convenient down the road.
+
+The items available in the Software Center are in the Ubuntu repositories. The Center is just a program for listing and accessing them. Any other program -- Synaptic, for example, or apt-get -- that accesses the same repos, will duplicate that functionality. (The list of repos a system uses is maintained for all such programs in the sources.list and other files in /etc.)
+
+The real advantage of the repository system in combination with these tools is that the software can resolve the dependencies. Linux software applications are seldom packaged as monolithic entities containing every library, etc., needed to get the thing to run. So, the packages in the repositories contain lists of each package's dependencies. Tools like the Center or Synaptic or apt-get are clever enough to know which dependencies are already installed and which it needs to download and install, assuming they're also in the repos.
+
+That's the major problem these programs solve. 
+
+Windows and OS X package software differently and do not use a dependency resolution tool.
+
+But, in all 3 operating systems, the actual installation of a package, once the archive is on the target machine, amounts to following an internal script that copies the files to the correct locations. That's what's happens when you click an icon on OS X or Windows, and exactly the same thing happens when you install something in Ubuntu. It's just not as obvious to the user.
+User 2
+In Windows you have to update all of your programs manually, one at a time.
+If you have missed a security alert for say Adobe Reader then you risk getting malware.
+In Ubuntu it is a one click process to update everything.
+Which is easier?
+
+

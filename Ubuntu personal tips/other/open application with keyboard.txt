@@ -1,0 +1,5 @@
+Open the Activities Overview by pressing the Super key.
+
+Start typing the name of the application you want to launch. Searching for the application begins instantly.
+
+Once the icon of the application is shown and selected, press Enter to launch the application.

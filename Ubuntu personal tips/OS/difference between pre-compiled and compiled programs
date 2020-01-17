@@ -1,0 +1,31 @@
+A source file contains the original code as written by the developer in whatever language he/she chooses (C, C++, Python etc),and is generic. It isn't specific to any distro and in many cases to any operating system.
+
+A package (RPM or DEB for example) is the binary executable (or interpreted script etc) pre-prepared for your particular distro. The task of preparing the source for compiling (adding any necessary patches etc), the actual compile, creating distro specific config files, creating pre and post install scripts etc are all done for you by the package maintainer.
+
+In other words, all the donkey work has been done for you in a package, whereas you'll need to do it yourself if you choose to install from source.
+
+It is much easier to use a package in nearly all cases as:
+
+They are much easier to install
+They are specifically designed to work with your distro
+They are sometimes patched by the package maintainer to fix distro specific bugs
+The package manager will uninstall them
+The package manager will manage all dependencies for you
+The package manager will take care of updates
+You don't need to install developer tools on your system (compilers, make etc)
+However, sometimes the packaged version is an old version or even worse, there is no packaged version; in which case your only option is to compile yourself. If you do, you need to consider the following:
+
+You'll need to install all the developer tools on your system
+You will be responsible for checking for an update and recompiling
+You will need to make sure all the dependencies are installed, including dev packages - there could be many of them.
+You may need to debug problems if it doesn't work as expected on your distro
+If you are willing to put in the extra effort, then compiling from source may give you the benefits of:
+
+Access to the latest available version
+The option of optimizing the compiling process for performance/stability
+Enjoyment!
+Note that while some distros' pre-built packages provide binary executables which are ready to install and run (RPM and DEB are examples), other distros provide packages that simply automate the process of compiling.
+
+Gentoo's ebuilds is an example of this - the package is basically instructions to the package manager describing how to compile and install the executable. This has many of the advantage of traditional package managers (automatic updates, uninstalling etc) while still allowing the user to optimize the compiling process to his/her taste.
+
+Arch Linux has a packaging system where the mainstream packages are binary while many extra packages are compiled on the system using PKGBUILD files.

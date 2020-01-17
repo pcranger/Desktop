@@ -1,0 +1,5 @@
+sudo poweroff
+shutdown -h (time in minutes)
+shutdown -c             //cancel shutdown
+shutdown –h 20:3        //shutdown at 8:03 pm
+sudo reboot             //restart

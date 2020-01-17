@@ -1,0 +1,36 @@
+cd: Change directoy
+pwd : Print working directory
+
+touch test.txt :Create a text 
+mkdir "test folder" : Create a directory 
+
+rm test.txt: Remove a file 
+mkdir "test folder": Remove an empty folder
+rm -r "test folder": Remove a non-empty folder 
+
+ls : List files
+ls -la : long option, all files option including hidden files
+ls -lX : sort by extension
+ls -lS : sort by size
+ls -lt : sort by modification date
+ls -ltr: sort by modification date(reversed)
+ls *.txt : list all .txt files
+ls -d .!(|.) : list only hidden files
+
+cat test.txt : display a text in terminal
+
+wc -l test.txt : count number of lines in test.txt
+wc -w test.txt : count number of words in test.txt
+
+find / -name test : find all files named test
+find / -iname Test : ignore case sensitivity
+find / -name *.txt : find all .txt files
+find / -size +100M : find all files that are more than 100Mb
+find / -ctime +3 : find all files that are created in before 3 days 
+find / -atime -3 : find all files that are accessed in last 3 days 
+find . -type f | wc -l : Find number of files in folder and sub folders
+
+
+grep "hieu" test.txt : find all instances of hieu in test.txt
+grep -w "hieu" test.txt: find exact match of hieu
+grep -wn "hieu" test.txt: find exact match of hieu and list the line it is in.

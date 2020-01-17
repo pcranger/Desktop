@@ -1,0 +1,5 @@
+Giữ độ phóng đại pdf khi click vào trang khác
+gsettings set org.gnome.Evince allow-links-change-zoom false 
+gsettings set org.gnome.Evince.Default zoom 1.75
+dconf
+

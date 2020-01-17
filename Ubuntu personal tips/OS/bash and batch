@@ -1,0 +1,2 @@
+Bash is actually a shell in UNIX/Linux. Batch files (or batch jobs) are usually referred to files containing list of commands executed periodically (daily, weekly, etc). You can write batch jobs in any language (example, Python, PHP, Perl, Shell script). Bash shell also supports scripting. So, you can write batch files with Bash scripting also.
+Bash is a Unix shell. A bash file is a batch file, but not the other way around. A batch file is a text file containing a series of commands.
