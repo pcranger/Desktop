@@ -1,0 +1,3 @@
+List all applications: dpkg -l
+
+Remove all libreoffice packages: sudo apt remove 'libreoffice. *'
