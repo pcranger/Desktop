@@ -1,0 +1,20 @@
+
+
+To open nautilus from terminal.
+
+nautilus .
+
+To open nautilus in the background and still use the terminal.
+
+nohup nautilus . > /dev/null 2>&1 &
+
+You can also make that an alias.
+
+alias open='nohup nautilus . > /dev/null 2>&1 &'
+
+You can also add that alias to .bash_aliases, to have it persistent.
+
+echo "alias open='nohup nautilus . > /dev/null 2>&1 &'" >> .bash_aliases
+
+So now, after restarting the terminal, you can just type open.
+
