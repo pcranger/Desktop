@@ -21,4 +21,4 @@ Set "Pointer threshold" to 0. As a result, the second speed will be applied at a
 Adjust "Pointer acceleration" to make that speed higher or lower.
 You will end up with a constant, non-dynamic cursor speed adjusted to your liking.
 
-So, these two values give you a very fine grained control over the speed.
+So, these two values give you a very fine grained control over the speed...
