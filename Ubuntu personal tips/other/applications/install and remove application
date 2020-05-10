@@ -1,0 +1,3 @@
+Find application without Software Center: sudo apt-cache search [application name or type]
+sudo apt-get remove zoom: remove installed applications
+protip: press z and hit TAB twice to list all applications that starts with z

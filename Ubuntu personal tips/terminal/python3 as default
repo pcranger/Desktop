@@ -1,0 +1,27 @@
+A simple safe way would be to use an alias. Place this into ~/.bashrc or ~/.bash_aliases file:
+
+alias python=python3
+After adding the above in the file, run source ~/.bashrc or source ~/.bash_aliases.
+
+For example:
+
+$ python --version
+Python 2.7.6
+$ python3 --version
+Python 3.4.3
+$ alias python=python3
+$ python --version
+Python 3.4.3
+To circumvent the alias use the command built-in command:
+
+$ command python --version
+Python 2.7.6
+Another way to circumvent the alias is to use \ before the command.
+
+$ \python --version 
+Python 2.7.6
+To disable the alias in the current shell use the unalias built-in command:
+
+$ unalias python
+$ python --version
+Python 2.7.6

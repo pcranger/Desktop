@@ -4,6 +4,7 @@ pwd : Print working directory
 touch test.txt :Create a text 
 mkdir "test folder" : Create a directory 
 
+mv file1 file2: rename from file1 to file2
 rm test.txt: Remove a file 
 mkdir "test folder": Remove an empty folder
 rm -r "test folder": Remove a non-empty folder 
